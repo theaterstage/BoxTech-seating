@@ -18,6 +18,12 @@ Static mirror of https://playground-grandstand.grok.me built for the `/BoxTech-s
 - Google Fonts still load from `fonts.googleapis.com` (requires network).
 - The original grok.app-builder extension script was removed from HTML.
 
+## Fix notes (2026-10-05)
+
+- Restored 20 missing Vite route chunks under `assets/` (products, systems, journal, news, …).
+- Corrected Vite asset URL helper `Mv` so dynamic imports resolve under `/BoxTech-seating/` (was `/assets/…` at site root).
+- Added `media/plates/*.svg` (~1600) referenced by journal/news/atlas pages.
+
 ## Source
 
 - Origin: https://playground-grandstand.grok.me (`/` → `/ar`)
