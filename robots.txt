@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: /BoxTech-seating/sitemap.xml
